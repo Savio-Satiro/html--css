@@ -2,7 +2,7 @@
 
         /*declarações gerais*/
         @media all{
-                *{
+            *{
                 margin: 0px;
                 padding: 0px;
             }
@@ -11,8 +11,6 @@
                 width: 100vw;
                 height: 100vh;
                 font-family: Arial, Helvetica, sans-serif;
-                background-size: contain;
-                background-repeat: no-repeat;
             }
 
             body{
@@ -37,8 +35,10 @@
         /*declarações paisagem*/
 
         @media screen and (orientation: landscape) {         
-            body{
+        body{
             background: url(../imagens/cev-landscape.jpg);
             background-position: left bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
             }
         }
